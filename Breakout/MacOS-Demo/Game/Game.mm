@@ -270,6 +270,7 @@ void Game::Render()
         textRender->RenderText("press Enter to start", width/2 - 145.0, enterY, 0.8f);
         textRender->RenderText("press W to select level", width/2 - 160.0, enterY + 40, 0.8f);
         textRender->RenderText("press S to select mode", width/2 - 155.0, enterY + 80, 0.8f);
+        textRender->RenderText("press A/D to move baffle", width/2 - 165.0, enterY + 120, 0.8f);
     }
     
     if (state == GAME_WIN) {

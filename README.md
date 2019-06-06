@@ -1,5 +1,11 @@
 # OpenGL-game
 #### 01-Breakout：打方块游戏
+![image](https://github.com/CoderYQ/OpenGL-game/blob/master/Breakout/screenshots/01.png?raw=true)
+
+![image](https://github.com/CoderYQ/OpenGL-game/blob/master/Breakout/screenshots/02.png?raw=true)
+
+![image](https://github.com/CoderYQ/OpenGL-game/blob/master/Breakout/screenshots/03.png?raw=true)
+
 Breakout项目使用到了[freetype](https://learnopengl-cn.github.io/06%20In%20Practice/02%20Text%20Rendering/)字体库，在运行之前需要确保电脑已经安装freetype。推荐使用homebrew安装方式，打开终端，运行下面的命令:
 ```
 brew install freetype

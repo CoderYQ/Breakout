@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3C14530D22B1322B0091ACAC /* triangle.fs in Resources */ = {isa = PBXBuildFile; fileRef = 3C14530B22B1322B0091ACAC /* triangle.fs */; };
 		3C14530E22B1322B0091ACAC /* triangle.vs in Resources */ = {isa = PBXBuildFile; fileRef = 3C14530C22B1322B0091ACAC /* triangle.vs */; };
+		3C14531022B13C4D0091ACAC /* awesomeface.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C14530F22B13C4D0091ACAC /* awesomeface.png */; };
 		3C199E5E2289BE3F009EB00D /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C199E5D2289BE3F009EB00D /* GLUT.framework */; };
 		3C199EA7228D1B06009EB00D /* stb_image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C199EA5228D1B06009EB00D /* stb_image.cpp */; };
 		3C22F7592286A31A00134E28 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3C22F6742286A31900134E28 /* CMakeLists.txt */; };
@@ -117,16 +118,40 @@
 		3C3611C822683C69002880F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C3611C622683C69002880F3 /* Main.storyboard */; };
 		3C3611CB22683C69002880F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3611CA22683C69002880F3 /* main.m */; };
 		3C3611D422683DA5002880F3 /* YQOpenGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3C3611D322683DA5002880F3 /* YQOpenGLView.mm */; };
+		3C4F9DDF22A6369A004D112B /* powerup_increase.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C4F9DDB22A63699004D112B /* powerup_increase.png */; };
+		3C4F9DE022A6369A004D112B /* powerup_passthrough.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C4F9DDC22A6369A004D112B /* powerup_passthrough.png */; };
+		3C4F9DE122A6369A004D112B /* powerup_sticky.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C4F9DDD22A6369A004D112B /* powerup_sticky.png */; };
+		3C4F9DE322A636E0004D112B /* powerup_confuse.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C4F9DE222A636E0004D112B /* powerup_confuse.png */; };
+		3C4F9DE522A63706004D112B /* powerup_chaos.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C4F9DE422A63706004D112B /* powerup_chaos.png */; };
+		3C4F9DE722A64309004D112B /* powerup_speed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C4F9DE622A64308004D112B /* powerup_speed.png */; };
+		3C4F9DF722A673BD004D112B /* breakout.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3C4F9DF222A673BD004D112B /* breakout.mp3 */; };
+		3C4F9DF822A673BD004D112B /* bleep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3C4F9DF322A673BD004D112B /* bleep.mp3 */; };
+		3C4F9DF922A673BD004D112B /* bleep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3C4F9DF422A673BD004D112B /* bleep.wav */; };
+		3C4F9DFA22A673BD004D112B /* powerup.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3C4F9DF522A673BD004D112B /* powerup.wav */; };
+		3C4F9DFB22A673BD004D112B /* solid.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3C4F9DF622A673BD004D112B /* solid.wav */; };
 		3C4F9DFD22A6760E004D112B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C4F9DFC22A6760E004D112B /* AVFoundation.framework */; };
 		3C675E162286746A004C80D2 /* YQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C675E152286746A004C80D2 /* YQViewController.m */; };
 		3C8761A42289B1F5000C3BC9 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8761A222898B63000C3BC9 /* OpenGL.framework */; };
 		3C8761A62289B1FB000C3BC9 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8761A52289B1FB000C3BC9 /* GLKit.framework */; };
+		3CAB298D22A769C900AEF73B /* ocraext.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CAB298C22A769C900AEF73B /* ocraext.ttf */; };
+		3CE51E0022A6969D00F69C74 /* kaushan.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3CE51DFF22A6969D00F69C74 /* kaushan.otf */; };
+		3CF779FA229FB68600509ACC /* awesomeface.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF779F6229FB68600509ACC /* awesomeface.png */; };
+		3CF779FB229FB68600509ACC /* block_solid.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF779F7229FB68600509ACC /* block_solid.png */; };
+		3CF779FC229FB68600509ACC /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CF779F8229FB68600509ACC /* background.jpg */; };
+		3CF779FD229FB68600509ACC /* block.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF779F9229FB68600509ACC /* block.png */; };
+		3CF77A02229FB72200509ACC /* one.lvl in Resources */ = {isa = PBXBuildFile; fileRef = 3CF779FE229FB72200509ACC /* one.lvl */; };
+		3CF77A03229FB72200509ACC /* two.lvl in Resources */ = {isa = PBXBuildFile; fileRef = 3CF779FF229FB72200509ACC /* two.lvl */; };
+		3CF77A04229FB72200509ACC /* three.lvl in Resources */ = {isa = PBXBuildFile; fileRef = 3CF77A00229FB72200509ACC /* three.lvl */; };
+		3CF77A05229FB72200509ACC /* four.lvl in Resources */ = {isa = PBXBuildFile; fileRef = 3CF77A01229FB72200509ACC /* four.lvl */; };
+		3CF77A07229FBE8500509ACC /* paddle.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF77A06229FBE8500509ACC /* paddle.png */; };
+		3CF77A1E22A2477200509ACC /* particle.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF77A1D22A2477200509ACC /* particle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3C0F141D229ABFDC008BCDFD /* libassimp.4.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libassimp.4.1.0.dylib; path = "MacOS-Demo/libassimp.4.1.0.dylib"; sourceTree = "<group>"; };
 		3C14530B22B1322B0091ACAC /* triangle.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = triangle.fs; sourceTree = "<group>"; };
 		3C14530C22B1322B0091ACAC /* triangle.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = triangle.vs; sourceTree = "<group>"; };
+		3C14530F22B13C4D0091ACAC /* awesomeface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awesomeface.png; sourceTree = "<group>"; };
 		3C199E5D2289BE3F009EB00D /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		3C199EA5228D1B06009EB00D /* stb_image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stb_image.cpp; sourceTree = "<group>"; };
 		3C199EA6228D1B06009EB00D /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
@@ -365,13 +390,36 @@
 		3C3611CC22683C69002880F3 /* MacOS_Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacOS_Demo.entitlements; sourceTree = "<group>"; };
 		3C3611D222683DA5002880F3 /* YQOpenGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQOpenGLView.h; sourceTree = "<group>"; };
 		3C3611D322683DA5002880F3 /* YQOpenGLView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = YQOpenGLView.mm; sourceTree = "<group>"; };
+		3C4F9DDB22A63699004D112B /* powerup_increase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerup_increase.png; sourceTree = "<group>"; };
+		3C4F9DDC22A6369A004D112B /* powerup_passthrough.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerup_passthrough.png; sourceTree = "<group>"; };
+		3C4F9DDD22A6369A004D112B /* powerup_sticky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerup_sticky.png; sourceTree = "<group>"; };
+		3C4F9DE222A636E0004D112B /* powerup_confuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerup_confuse.png; sourceTree = "<group>"; };
+		3C4F9DE422A63706004D112B /* powerup_chaos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerup_chaos.png; sourceTree = "<group>"; };
+		3C4F9DE622A64308004D112B /* powerup_speed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerup_speed.png; sourceTree = "<group>"; };
+		3C4F9DF222A673BD004D112B /* breakout.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = breakout.mp3; sourceTree = "<group>"; };
+		3C4F9DF322A673BD004D112B /* bleep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bleep.mp3; sourceTree = "<group>"; };
+		3C4F9DF422A673BD004D112B /* bleep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bleep.wav; sourceTree = "<group>"; };
+		3C4F9DF522A673BD004D112B /* powerup.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = powerup.wav; sourceTree = "<group>"; };
+		3C4F9DF622A673BD004D112B /* solid.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = solid.wav; sourceTree = "<group>"; };
 		3C4F9DFC22A6760E004D112B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		3C675E142286746A004C80D2 /* YQViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQViewController.h; sourceTree = "<group>"; };
 		3C675E152286746A004C80D2 /* YQViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQViewController.m; sourceTree = "<group>"; };
 		3C8761A222898B63000C3BC9 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		3C8761A52289B1FB000C3BC9 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		3CAB298622A6A94400AEF73B /* libfreetype.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfreetype.dylib; path = ../../../../../../../usr/local/Cellar/freetype/2.10.0/lib/libfreetype.dylib; sourceTree = "<group>"; };
+		3CAB298C22A769C900AEF73B /* ocraext.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ocraext.ttf; sourceTree = "<group>"; };
 		3CE51DFD22A6933500F69C74 /* libfreetype.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfreetype.6.dylib; path = "MacOS-Demo/libfreetype.6.dylib"; sourceTree = "<group>"; };
+		3CE51DFF22A6969D00F69C74 /* kaushan.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kaushan.otf; sourceTree = "<group>"; };
+		3CF779F6229FB68600509ACC /* awesomeface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awesomeface.png; sourceTree = "<group>"; };
+		3CF779F7229FB68600509ACC /* block_solid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block_solid.png; sourceTree = "<group>"; };
+		3CF779F8229FB68600509ACC /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		3CF779F9229FB68600509ACC /* block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block.png; sourceTree = "<group>"; };
+		3CF779FE229FB72200509ACC /* one.lvl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = one.lvl; sourceTree = "<group>"; };
+		3CF779FF229FB72200509ACC /* two.lvl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = two.lvl; sourceTree = "<group>"; };
+		3CF77A00229FB72200509ACC /* three.lvl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = three.lvl; sourceTree = "<group>"; };
+		3CF77A01229FB72200509ACC /* four.lvl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = four.lvl; sourceTree = "<group>"; };
+		3CF77A06229FBE8500509ACC /* paddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paddle.png; sourceTree = "<group>"; };
+		3CF77A1D22A2477200509ACC /* particle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = particle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -727,6 +775,30 @@
 		3CFEDD47226B62A400C4BC0C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3C14530F22B13C4D0091ACAC /* awesomeface.png */,
+				3CAB298C22A769C900AEF73B /* ocraext.ttf */,
+				3CE51DFF22A6969D00F69C74 /* kaushan.otf */,
+				3C4F9DF322A673BD004D112B /* bleep.mp3 */,
+				3C4F9DF422A673BD004D112B /* bleep.wav */,
+				3C4F9DF222A673BD004D112B /* breakout.mp3 */,
+				3C4F9DF522A673BD004D112B /* powerup.wav */,
+				3C4F9DF622A673BD004D112B /* solid.wav */,
+				3CF779FE229FB72200509ACC /* one.lvl */,
+				3CF779FF229FB72200509ACC /* two.lvl */,
+				3CF77A00229FB72200509ACC /* three.lvl */,
+				3CF77A01229FB72200509ACC /* four.lvl */,
+				3C4F9DE622A64308004D112B /* powerup_speed.png */,
+				3C4F9DE422A63706004D112B /* powerup_chaos.png */,
+				3C4F9DDD22A6369A004D112B /* powerup_sticky.png */,
+				3C4F9DE222A636E0004D112B /* powerup_confuse.png */,
+				3C4F9DDB22A63699004D112B /* powerup_increase.png */,
+				3C4F9DDC22A6369A004D112B /* powerup_passthrough.png */,
+				3CF779F6229FB68600509ACC /* awesomeface.png */,
+				3CF77A1D22A2477200509ACC /* particle.png */,
+				3CF779F8229FB68600509ACC /* background.jpg */,
+				3CF779F7229FB68600509ACC /* block_solid.png */,
+				3CF779F9229FB68600509ACC /* block.png */,
+				3CF77A06229FBE8500509ACC /* paddle.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -791,12 +863,17 @@
 			files = (
 				3C22F7852286A31A00134E28 /* noise.inl in Resources */,
 				3C22F7612286A31A00134E28 /* func_integer.inl in Resources */,
+				3C14531022B13C4D0091ACAC /* awesomeface.png in Resources */,
+				3C4F9DE322A636E0004D112B /* powerup_confuse.png in Resources */,
 				3C22F75D2286A31A00134E28 /* func_packing.inl in Resources */,
 				3C22F78F2286A31A00134E28 /* euler_angles.inl in Resources */,
+				3C4F9DE522A63706004D112B /* powerup_chaos.png in Resources */,
 				3C22F7B72286A31A00134E28 /* norm.inl in Resources */,
+				3C4F9DF722A673BD004D112B /* breakout.mp3 in Resources */,
 				3C22F7A52286A31A00134E28 /* rotate_vector.inl in Resources */,
 				3C22F7A32286A31A00134E28 /* vector_access.inl in Resources */,
 				3C22F7862286A31A00134E28 /* random.inl in Resources */,
+				3C4F9DE722A64309004D112B /* powerup_speed.png in Resources */,
 				3C22F7932286A31A00134E28 /* color_cast.inl in Resources */,
 				3C22F79F2286A31A00134E28 /* vec1.inl in Resources */,
 				3C22F77B2286A31A00134E28 /* matrix_inverse.inl in Resources */,
@@ -814,6 +891,7 @@
 				3C22F7622286A31A00134E28 /* intrinsic_vector_relational.inl in Resources */,
 				3C22F7822286A31A00134E28 /* matrix_access.inl in Resources */,
 				3C22F78B2286A31A00134E28 /* extend.inl in Resources */,
+				3C4F9DDF22A6369A004D112B /* powerup_increase.png in Resources */,
 				3C22F7732286A31A00134E28 /* type_gentype.inl in Resources */,
 				3C22F75E2286A31A00134E28 /* type_half.inl in Resources */,
 				3C22F7A92286A31A00134E28 /* component_wise.inl in Resources */,
@@ -828,11 +906,13 @@
 				3C3611C522683C69002880F3 /* Assets.xcassets in Resources */,
 				3C22F76A2286A31A00134E28 /* intrinsic_common.inl in Resources */,
 				3C22F76D2286A31A00134E28 /* type_mat2x2.inl in Resources */,
+				3C4F9DFA22A673BD004D112B /* powerup.wav in Resources */,
 				3C22F7802286A31A00134E28 /* ulp.inl in Resources */,
 				3C22F75B2286A31A00134E28 /* func_exponential.inl in Resources */,
 				3C22F76E2286A31A00134E28 /* type_vec1.inl in Resources */,
 				3C22F78E2286A31A00134E28 /* gradient_paint.inl in Resources */,
 				3C22F7632286A31A00134E28 /* func_geometric.inl in Resources */,
+				3C4F9DE022A6369A004D112B /* powerup_passthrough.png in Resources */,
 				3C22F77A2286A31A00134E28 /* type_mat3x3.inl in Resources */,
 				3C22F7AB2286A31A00134E28 /* std_based_type.inl in Resources */,
 				3C22F7AA2286A31A00134E28 /* normalize_dot.inl in Resources */,
@@ -840,29 +920,40 @@
 				3C22F7812286A31A00134E28 /* epsilon.inl in Resources */,
 				3C22F76B2286A31A00134E28 /* type_vec4.inl in Resources */,
 				3C22F7752286A31A00134E28 /* func_matrix.inl in Resources */,
+				3C4F9DF922A673BD004D112B /* bleep.wav in Resources */,
 				3C22F7972286A31A00134E28 /* mixed_product.inl in Resources */,
 				3C22F7A82286A31A00134E28 /* orthonormalize.inl in Resources */,
+				3CF779FB229FB68600509ACC /* block_solid.png in Resources */,
+				3C4F9DFB22A673BD004D112B /* solid.wav in Resources */,
 				3C14530D22B1322B0091ACAC /* triangle.fs in Resources */,
+				3CF77A04229FB72200509ACC /* three.lvl in Resources */,
 				3C22F7982286A31A00134E28 /* transform.inl in Resources */,
 				3C22F7942286A31A00134E28 /* optimum_pow.inl in Resources */,
 				3C22F7672286A31A00134E28 /* type_mat2x4.inl in Resources */,
 				3C22F7772286A31A00134E28 /* intrinsic_exponential.inl in Resources */,
 				3C22F7762286A31A00134E28 /* type_mat3x4.inl in Resources */,
 				3C22F7872286A31A00134E28 /* constants.inl in Resources */,
+				3C4F9DF822A673BD004D112B /* bleep.mp3 in Resources */,
 				3C22F7702286A31A00134E28 /* intrinsic_trigonometric.inl in Resources */,
 				3C22F7A42286A31A00134E28 /* string_cast.inl in Resources */,
 				3C22F7BB2286A31A00134E28 /* polar_coordinates.inl in Resources */,
+				3CF77A1E22A2477200509ACC /* particle.png in Resources */,
 				3C22F7882286A31A00134E28 /* type_ptr.inl in Resources */,
 				3C22F7A62286A31A00134E28 /* matrix_interpolation.inl in Resources */,
+				3CF779FA229FB68600509ACC /* awesomeface.png in Resources */,
 				3C22F7B52286A31A00134E28 /* normal.inl in Resources */,
 				3C22F7902286A31A00134E28 /* raw_data.inl in Resources */,
 				3C3611C822683C69002880F3 /* Main.storyboard in Resources */,
+				3CF77A02229FB72200509ACC /* one.lvl in Resources */,
 				3C22F78C2286A31A00134E28 /* associated_min_max.inl in Resources */,
 				3C22F76F2286A31A00134E28 /* type_mat4x4.inl in Resources */,
 				3C22F77F2286A31A00134E28 /* type_precision.inl in Resources */,
 				3C22F7842286A31A00134E28 /* swizzle.inl in Resources */,
 				3C22F7BF2286A31A00134E28 /* multiple.inl in Resources */,
 				3C22F78A2286A31A00134E28 /* matrix_query.inl in Resources */,
+				3CF779FC229FB68600509ACC /* background.jpg in Resources */,
+				3CF77A03229FB72200509ACC /* two.lvl in Resources */,
+				3CE51E0022A6969D00F69C74 /* kaushan.otf in Resources */,
 				3C22F7AD2286A31A00134E28 /* matrix_major_storage.inl in Resources */,
 				3C22F7A72286A31A00134E28 /* vector_query.inl in Resources */,
 				3C22F7BE2286A31A00134E28 /* projection.inl in Resources */,
@@ -873,12 +964,14 @@
 				3C22F79E2286A31A00134E28 /* closest_point.inl in Resources */,
 				3C22F7B92286A31A00134E28 /* fast_exponential.inl in Resources */,
 				3C22F79B2286A31A00134E28 /* spline.inl in Resources */,
+				3CF77A05229FB72200509ACC /* four.lvl in Resources */,
 				3C22F75C2286A31A00134E28 /* func_vector_relational.inl in Resources */,
 				3C22F7BD2286A31A00134E28 /* int_10_10_10_2.inl in Resources */,
 				3C22F7662286A31A00134E28 /* func_trigonometric.inl in Resources */,
 				3C22F7602286A31A00134E28 /* intrinsic_geometric.inl in Resources */,
 				3C22F79C2286A31A00134E28 /* fast_square_root.inl in Resources */,
 				3C22F7992286A31A00134E28 /* bit.inl in Resources */,
+				3CAB298D22A769C900AEF73B /* ocraext.ttf in Resources */,
 				3C22F7B82286A31A00134E28 /* handed_coordinate_space.inl in Resources */,
 				3C22F7B22286A31A00134E28 /* transform2.inl in Resources */,
 				3C22F7BC2286A31A00134E28 /* wrap.inl in Resources */,
@@ -887,12 +980,15 @@
 				3C22F7712286A31A00134E28 /* type_mat2x3.inl in Resources */,
 				3C22F7642286A31A00134E28 /* type_vec.inl in Resources */,
 				3C22F7B62286A31A00134E28 /* verbose_operator.inl in Resources */,
+				3CF77A07229FBE8500509ACC /* paddle.png in Resources */,
 				3C22F7962286A31A00134E28 /* number_precision.inl in Resources */,
 				3C22F7B42286A31A00134E28 /* color_space.inl in Resources */,
+				3CF779FD229FB68600509ACC /* block.png in Resources */,
 				3C22F7B12286A31A00134E28 /* extented_min_max.inl in Resources */,
 				3C22F79D2286A31A00134E28 /* color_space_YCoCg.inl in Resources */,
 				3C22F7A02286A31A00134E28 /* integer.inl in Resources */,
 				3C22F7892286A31A00134E28 /* log_base.inl in Resources */,
+				3C4F9DE122A6369A004D112B /* powerup_sticky.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
